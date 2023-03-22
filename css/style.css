@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #F2F2F2;
+    --text: #4D4F62;
+    --Red: #EA5454;
+    --Cyan: #44D3D2;
+    --Orange: #FCAE4A;
+    --Blue: #549EF2;
+    --white: #FFFFFF;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: var(--background);
+    padding: 85px 32px 78px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    margin-bottom: 76px;
+    text-align: center;
+}
+
+.delivery-title {
+    padding: 0 7px 16px 7px;
+}
+
+.delivery {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--text);
+}
+
+.about {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--text);
+    opacity: 0.5;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card {
+    padding: 28px;
+    background: var(--white);
+    border-radius: 8px;
+    border-top-width: 3.55px;
+    border-top-style: solid;
+    border-top-color: var(--Cyan);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.red {
+    border-top-color: var(--Red);
+}
+
+.orange {
+    border-top-color: var(--Orange);
+}
+
+.blue {
+    border-top-color: var(--Blue);
+}
+
+.card-div {
+    margin-bottom: 33px;
+}
+
+.card-title {
+    margin-bottom: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text);
+}
+
+.card-ph {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: var(--text);
+    opacity: 0.5;
+}
+
+img {
+    margin-left: auto;
+    width: 57px;
+    height: 57px;
+}
+
+@media (min-width: 1440px) {
+    body {
+        padding: 80px 0 80px 0;
+    }
+    .header {
+        margin-bottom: 64px;
+        padding: 0 450px 0 450px;
+    }
+    .delivery-title {
+        padding: 0 48px 16px 48px;
+    }
+    .delivery {
+        font-weight: 300;
+        font-size: 35px;
+        line-height: 54px;
+    }
+    .title {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 54px;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        padding: 0 32px 0 32px;
+        align-items: center;
+    }
+    .card {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        height: 250px;
+    }
+    .middle-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+
+
+
